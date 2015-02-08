@@ -4,4 +4,7 @@
 
 /* TODO display the content, in solid form if viewing or with inputs if editing */
 
+/* TEMP */
+echo $style + " user " + $id;
+
 ?>
