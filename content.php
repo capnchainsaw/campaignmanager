@@ -1,13 +1,14 @@
-if($type == "campaign")
-{
-  include 'views/campaign.php';
+<?php
+
+if (strcmp($type,'campaign') == 0) {
+  include 'content/campaign.php';
+} else if (strcmp($type,'user') == 0) {
+  include 'content/user.php';
+} else if (strcmp($type,'character') == 0) {
+  include 'content/character.php';
+} else {
+  echo 'Error: content type unknown';
 }
-else if($type == "user')
-{
-  include 'views/user.php';
-}
-else if($type == "character")
-{
-  include 'views/character.php;
-}
-/* TODO handle other types */
+/*  TODO handle other types */
+
+?>

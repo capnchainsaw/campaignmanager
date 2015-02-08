@@ -1,9 +1,13 @@
 <?php
 
+include 'header.php';
+
 include 'vars.php';
 
-$style = "view"
+$style = "view";
 
 include 'content.php';
+
+include 'footer.php';
 
 ?>

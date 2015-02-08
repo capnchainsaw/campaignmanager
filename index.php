@@ -3,12 +3,9 @@
 /* Dungeons and Dragons Campaign Manager 
  * by James Johnson (tiasdungeon@gmail.com) */
 
+include 'header.php';
+
 ?>
-<html>
-<header>
-<title>Placeholder index</title>
-</header>
-<body>
 This page is a placeholder.<br/>
 <br/>
 <a href="view.php?id=1&type=campaign">Test view campaign with ID 1</a><br/>
@@ -18,5 +15,8 @@ This page is a placeholder.<br/>
 <a href="edit.php?id=1&type=campaign">Test edit campaign with ID 1</a><br/>
 <a href="edit.php?id=1&type=user">Test edit user with ID 1</a><br/>
 <a href="edit.php?id=1&type=character">Test edit character with ID 1</a><br/>
-</body>
-</html>
+<?php
+
+include 'footer.php';
+
+?>
